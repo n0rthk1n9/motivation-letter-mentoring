@@ -5,7 +5,7 @@ export function Introduction(): JSX.Element {
   return (
     <div className="p-6 max-w mx-20 my-20 bg-white rounded-xl shadow-md flex items-center bg-dark-khaki space-x-5">
       <div className="flex-shrink-0">
-        <img className="h-24" src={anne} />
+        <img className="h-24" src={anne} alt="creatorImage" />
       </div>
       <div className="flex-auto">
         Ich bin Anne, 28 Jahre alt und habe in einen Masterabschluss in
