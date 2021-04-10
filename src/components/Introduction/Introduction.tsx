@@ -3,7 +3,7 @@ import anne from '../../assets/images/anne.png'
 
 export function Introduction(): JSX.Element {
   return (
-    <div className="p-6 max-w mx-20 my-20 bg-white rounded-xl shadow-md flex items-center bg-dark-khaki space-x-5">
+    <div className="sm:p-6 p-2 max-w mx-2 my-2 sm:mx-20 sm:my-20 bg-white rounded-xl shadow-md flex flex-col sm:flex-row items-center bg-dark-khaki space-x-5 space-y-5">
       <div className="flex-shrink-0">
         <img className="h-24" src={anne} alt="creatorImage" />
       </div>
