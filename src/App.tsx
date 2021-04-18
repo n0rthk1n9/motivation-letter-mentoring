@@ -3,6 +3,7 @@ import { Introduction } from './components/Introduction'
 import { Motivation } from './components/Motivation'
 import { ProductFacts } from './components/ProductFacts'
 import { ProductPreview } from './components/ProductPreview'
+import { Products } from './components/Products'
 import { SubscribeForm } from './components/SubscribeForm'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <ProductFacts />
       <SubscribeForm />
       <ProductPreview />
+      <Products />
     </div>
   )
 }
