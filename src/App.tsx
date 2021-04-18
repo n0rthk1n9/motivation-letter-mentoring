@@ -1,4 +1,5 @@
 import React from 'react'
+import { CustomerFeedback } from './components/CustomerFeedback'
 import { Introduction } from './components/Introduction'
 import { Motivation } from './components/Motivation'
 import { ProductFacts } from './components/ProductFacts'
@@ -17,6 +18,7 @@ function App() {
       <ProductPreview />
       <Products />
       <SubscribeForm />
+      <CustomerFeedback />
     </div>
   )
 }
