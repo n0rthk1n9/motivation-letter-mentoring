@@ -12,6 +12,7 @@ function App() {
       <Motivation />
       <SubscribeForm />
       <ProductFacts />
+      <SubscribeForm />
       <ProductPreview />
     </div>
   )
