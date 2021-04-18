@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         fawn: '#e7a977',
         'dark-khaki': '#c7cb85',
+        'peach-crayola': '#ebbe9b',
       },
     },
   },
