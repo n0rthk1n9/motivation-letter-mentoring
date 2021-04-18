@@ -2,6 +2,7 @@ import React from 'react'
 import { Introduction } from './components/Introduction'
 import { Motivation } from './components/Motivation'
 import { ProductFacts } from './components/ProductFacts'
+import { ProductPreview } from './components/ProductPreview'
 import { SubscribeForm } from './components/SubscribeForm'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Motivation />
       <SubscribeForm />
       <ProductFacts />
+      <ProductPreview />
     </div>
   )
 }
